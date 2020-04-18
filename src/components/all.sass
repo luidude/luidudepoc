@@ -1,14 +1,23 @@
 @import "~bulma/sass/utilities/initial-variables"
 
+/* Coolors Exported Palette - coolors.co/216869-49a078-9cc5a1-1b2845-dce1de */
+
+/* RGB */
+$color1: rgba(33, 104, 105, 1)
+$color2: rgba(73, 160, 120, 1)
+$color3: rgba(156, 197, 161, 1)
+$color4: rgba(27, 40, 69, 1)
+$color5: rgba(220, 225, 222, 1)
+
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+$kaldi-red: $color1
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
-$black: #2b2523
+$black: $color3
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -61,10 +70,10 @@ $black: #2b2523
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: $color1
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    -webkit-box-shadow: inset 0 0 0 2px $color1
+    box-shadow: inset 0 0 0 2px $color1
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
@@ -114,7 +123,7 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: $color3
 .blog-list-item header
   display: flex;
   margin-bottom: 1em;
